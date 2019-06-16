@@ -1,0 +1,96 @@
+html,
+body {
+
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  padding: 50px 0;
+}
+
+header {
+
+  width: 1920px;
+  height: 900px;
+}
+
+
+
+.planet {
+
+
+  position: absolute;
+
+}
+
+#background {
+  background-image: url(../img/4/3F_04_.png);
+  background-repeat: no-repeat;
+  left: -1%;
+  position: absolute;
+  top: 33%;
+  z-index: 100;
+}
+
+
+#planet-1 {
+  margin: -233px 0 0 -116px;
+  left: 35%;
+  top: 28%;
+  height: 933px;
+  width: 100%;
+  background-image: url(../img/4/3F_04.png);
+  background-repeat: no-repeat;
+  z-index: 20;
+}
+
+#planet-2 {
+  height: 100%;
+  width: 100%;
+  margin: -247px 0 0 -198px;
+  left: 32%;
+  top: 57%;
+  background-image: url(../img/4/Vector_Smart_Object.svg);
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1600px) {
+  header {
+
+    width: 1600px;
+    height: 759px;
+  }
+
+  .planet {
+    position: absolute;
+  }
+
+  #background {
+    bottom: -13%;
+    left: -161px;
+    position: absolute;
+    right: -10%;
+    top: 300px;
+    z-index: 100;
+}
+
+
+#planet-1 {
+  margin: -233px 0 0 -116px;
+  left: 32%;
+  top: 34%;
+  height: 933px;
+  width: 100%;
+  z-index: 20;
+}
+
+#planet-2 {
+  margin: -247px 0 0 -198px;
+  left: 450px;
+  top: 509px;
+  z-index: 10;
+}
+}

@@ -1,0 +1,102 @@
+html,
+body {
+
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  padding: 50px 0;
+}
+
+header {
+
+  width: 1920px;
+  height: 900px;
+}
+
+
+
+.planet {
+
+
+  position: absolute;
+
+}
+
+#background {
+  background-image: url(../img/2/Top_z-index.svg);
+  background-repeat: no-repeat;
+  bottom: -17%;
+  left: -4%;
+  position: absolute;
+  right: -10%;
+  top: 54%;
+  z-index: 100;
+}
+
+
+
+#planet-1 {
+  margin: -233px 0 0 -116px;
+  bottom: -41%;
+  left: 0%;
+  right: -24%;
+  top: 25%;
+  height: 933px;
+  width: 100%;
+  background-image: url(../img/2/3F_02_1.png);
+  z-index: 20;
+}
+
+#planet-2 {
+  height:100% ;
+  width: 100%;
+  margin: -247px 0 0 -198px;
+  bottom: 0%;
+  left: 42%;
+  right: 0%;
+  top: 61%;
+  background-image: url(../img/2/Vector_Smart_Object.svg);
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1600px) {
+  header {
+
+    width: 1600px;
+
+  }
+
+  .planet {
+    position: absolute;
+  }
+
+  #background {
+    bottom: -13%;
+    left: -157px;
+    position: absolute;
+    right: -10%;
+    top: 444px;
+    z-index: 100;
+}
+#planet-1 {
+  margin: -233px 0 0 -116px;
+  bottom: -41%;
+  left: -4%;
+  right: -24%;
+  top: 30%;
+  height: 933px;
+  width: 100%;
+  z-index: 20;
+}
+
+#planet-2 {
+  margin: -247px 0 0 -198px;
+  left: 698px;
+  top: 509px;
+  z-index: 10;
+}
+}
